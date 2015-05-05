@@ -1,0 +1,31 @@
+{
+  "name": "skiff-dispatcher-smtp",
+  "version": "1.0.0",
+  "description": "Provides 2 pluggable RPC calls: one generates smtp pool, and the other is responsible for generating smtp access credentials cache",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVVS/skiff-dispatcher-smtp.git"
+  },
+  "keywords": [
+    "skiff",
+    "dispatcher",
+    "smtp",
+    "task",
+    "remote",
+    "rpc"
+  ],
+  "author": "Vitaly Aminev <v@aminev.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVVS/skiff-dispatcher-smtp/issues"
+  },
+  "homepage": "https://github.com/AVVS/skiff-dispatcher-smtp#readme",
+  "dependencies": {
+    "nodemailer": "^1.3.4",
+    "nodemailer-smtp-pool": "^1.0.1"
+  }
+}
