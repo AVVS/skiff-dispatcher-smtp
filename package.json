@@ -1,6 +1,6 @@
 {
   "name": "skiff-dispatcher-smtp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides 2 pluggable RPC calls: one generates smtp pool, and the other is responsible for generating smtp access credentials cache",
   "main": "./lib/index.js",
   "scripts": {

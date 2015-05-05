@@ -27,8 +27,9 @@ DispatcherSMTP.init({
 var dispatcher = new Dispatcher(...);
 
 // defined this on the dispatcher object, since it can not be called remotely
-dispatcher.function_to_preprocess_emails = function (username, email) {
-    // do sync preprocessing here
+dispatcher.function_to_preprocess_emails = function (username, email, next) {
+    // do async preprocessing here
+    // next(err, processedEmail)
 };
 
 // call the method
